@@ -26,7 +26,7 @@ export class DiscordService {
         });
 
         if (!resp.ok) {
-            console.log('Error sendiing message todiscord');
+            console.log('Error sending message todiscord');
             return false;
         }
 
